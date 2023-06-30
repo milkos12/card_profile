@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e2db; 
+}
+.body-card {
+    box-sizing: border-box;
+    background-color: #efefef;
+    border-radius: 25px;
+    padding: 40px;
+    width: 400px;
+    margin: 50px auto;
+    
+}
+
+/*Phto profile*/
+.photo-profile {
+    background-color: #bed1d0;
+    border-radius: 20px;
+    width: 125px; 
+}
+.photo-profile img{
+    width: 125px;
+    height: 125px;
+}
+
+/*Details profile*/
+
+.details-profile {
+    box-sizing: inherit;
+    margin-top: 0;
+}
+
+.details-profile h3 {
+    margin: 25px 0 0 auto;
+    font-size: 35;
+}
+
+.details-profile p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #787b7c;
+}
+
+.name-profile {
+    color: #000;
+}
+
+/*buttoms*/
+
+.buttoms-profile .books {
+    box-sizing: inherit;
+    background-color: #0056bd;
+    border: none; 
+    padding: 15px 20px;
+    color: #eeee;
+    
+}
+
+.buttoms-profile .follow {
+    box-sizing: inherit;
+    background-color: #e5e2db;
+    border: none;
+    padding: 17px 20px;
+    margin-left: 10px;
+    width: 60px;
+    
+}
+
+.buttoms-profile .follow, .buttoms-profile .books{
+    font-weight: 800;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 13px;
+}
+
+
+.numbers-profile {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+
+.number-bold {
+    margin-top: -12px;
+    font-size: 25;
+    font-weight: 700;
+}
+
+.number-description {
+    font-size: 14px;
+    color: #787b7c;
+}
+
+.line-numbers {
+    height: 23px;
+    width: 1px; 
+    border: none;
+    background-color: #787b7c;
+    opacity: 0.2;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e2db;
+    height: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+.banner-select {
+    background-color: #ffff;
+}
+
+.banner-select, .banner-no-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 90px;
+    border-radius: 7px;
+} 
