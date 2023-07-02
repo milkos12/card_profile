@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e5e2db; 
+    background-color: #e5e2db;
 }
+
 .body-card {
     box-sizing: border-box;
     background-color: #efefef;
@@ -9,16 +10,17 @@ body {
     padding: 40px;
     width: 400px;
     margin: 50px auto;
-    
+
 }
 
 /*Phto profile*/
 .photo-profile {
     background-color: #bed1d0;
     border-radius: 20px;
-    width: 125px; 
+    width: 125px;
 }
-.photo-profile img{
+
+.photo-profile img {
     width: 125px;
     height: 125px;
 }
@@ -35,7 +37,7 @@ body {
     font-size: 35;
 }
 
-.details-profile p{
+.details-profile p {
     margin-top: 5px;
     font-size: 15px;
     color: #787b7c;
@@ -50,10 +52,10 @@ body {
 .buttoms-profile .books {
     box-sizing: inherit;
     background-color: #0056bd;
-    border: none; 
+    border: none;
     padding: 15px 20px;
     color: #eeee;
-    
+
 }
 
 .buttoms-profile .follow {
@@ -63,10 +65,11 @@ body {
     padding: 17px 20px;
     margin-left: 10px;
     width: 60px;
-    
+
 }
 
-.buttoms-profile .follow, .buttoms-profile .books{
+.buttoms-profile .follow,
+.buttoms-profile .books {
     font-weight: 800;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
@@ -78,7 +81,7 @@ body {
     display: flex;
     flex: 0 1 auto;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 
 }
 
@@ -95,12 +98,14 @@ body {
 
 .line-numbers {
     height: 23px;
-    width: 1px; 
+    width: 1px;
     border: none;
     background-color: #787b7c;
     opacity: 0.2;
 }
 
+
+/*-----------banner-----------*/
 .banner {
     display: flex;
     justify-content: space-between;
@@ -117,11 +122,95 @@ body {
     background-color: #ffff;
 }
 
-.banner-select, .banner-no-select {
+.banner-select,
+.banner-no-select {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
     width: 90px;
     border-radius: 7px;
-} 
+}
+
+/*--------------card-------------*/
+.card {
+    margin-top: 25px;
+    height: 200px;
+    background-color: #e3d4e7;
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+
+.card-head {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.card-head .card-title {
+    padding: 0;
+    margin: 0;
+
+}
+
+.card-title h4 {
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.card-head p {
+    padding: 0;
+    margin-top: -20px;
+    font-size: 12px;
+    font-weight: 650;
+    color: #787b7c;
+    
+}
+
+.card-heart {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 15%;
+
+}
+
+.card-space {
+    margin-right: 15px;
+    font-weight: 1000;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.card-score p{
+    display: flex;
+    align-items: end;
+}
+.card-number {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.card-stard, .card-rating-hours {
+    margin-bottom: 2px;
+}
+
+.card-rating-hours {
+    margin-bottom: 4px;
+}
+
+.card-rating-hours {
+    font-weight: 650;
+}
